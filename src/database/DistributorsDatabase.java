@@ -34,7 +34,7 @@ public final class DistributorsDatabase {
      */
     public void chooseProducers(ProducersDatabase producersDB) {
 
-        EnergyChoiceStrategyFactory energy = new EnergyChoiceStrategyFactory();
+        EnergyChoiceStrategyFactory energy = EnergyChoiceStrategyFactory.getInstance();
 
         for (Distributors d : distributors) {
             if (d.isChangeProducers()) {
