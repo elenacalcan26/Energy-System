@@ -2,6 +2,10 @@ package strategies;
 
 public final class EnergyChoiceStrategyFactory {
     private static EnergyChoiceStrategyFactory instance = null;
+    
+    private EnergyChoiceStrategyFactory() {
+    
+    }
 
     /**
      * @return instanta clasei
