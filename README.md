@@ -1,5 +1,7 @@
 # Energy-System
-Calcan Elena-Claudia 321CA
+
+##### Calcan Elena-Claudia <br\>
+##### 321CA
 
   Programul implementeaza o simulare a unui sistem energetic.
   
